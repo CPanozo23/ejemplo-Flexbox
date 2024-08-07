@@ -1,0 +1,97 @@
+.container{
+    margin:0;
+    padding:0;
+    display: flex;
+    font-family: "Roboto";
+}
+
+.contacts{
+    background-color: aqua;
+    height: 100vh;
+    width: 10em;
+}
+
+.main{
+    background-color: aquamarine;
+    width: 100%;
+}
+
+.perfil{
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-between;
+    padding:10px;
+}
+
+.user{
+    background-color: brown;
+    display: flex;
+    align-items: center;
+}
+
+.user img{
+    width: 35px;
+    border-radius: 1em;
+}
+
+.user p {
+    margin:0;
+    padding:0;
+}
+
+.user-name{
+    font-size: 0.8em;
+}
+.user-state{
+    font-size: 0.5em;
+}
+
+.icons{
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 2.2em;
+}
+
+.btn{
+    background-color: chartreuse;
+    height: 4em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-text {
+    background-color: red;
+    padding: 0.5em 1em;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.main article{
+    background-color: burlywood;
+    height: auto;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main img{
+    width: 300px;
+}
+
+.main p{
+    text-align: center;
+}
+
+.main span{
+    font-weight: bold;
+}
